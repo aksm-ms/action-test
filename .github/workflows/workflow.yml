@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: AnishPoddar/octocat-hello-action@master # workflow file can reside in same repo as actions for initial testing
       with:
-        who-to-greet: 'Mundo'
+        who-to-greet: 'xyz'
       id: hello
     - run: echo "The time was ${{ steps.hello.outputs.time }}"
